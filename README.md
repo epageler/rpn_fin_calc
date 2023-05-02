@@ -199,7 +199,7 @@ The RPN Financial calculator is implemented entirely in Python. It takes advanta
 - numpy-financial (see link: [numpy-financial](https://numpy.org/numpy-financial/latest/index.html))
 
 The application has two modules:
-1. RPNcalc.py: This is the main module. It implements the entire graphical user interface (GUI) using the PySimpleGUI library. It takes advantage of many of the PySimpleGUI elements, including:
+1. main.py: This is the main module. It implements the entire graphical user interface (GUI) using the PySimpleGUI library. It takes advantage of many of the PySimpleGUI elements, including:
    - Text
    - Button
    - Popup
@@ -210,8 +210,3 @@ The application has two modules:
 2. Calculator.py: This module contains a single class called Calculator that implements the internal data and functionality of the calculator. The update method is invoked each time an event is received in the main event loop. The update method returns two values:
    - The value of what should be shown on the calculator display.
    - An error message if one has occurred.
-
-
-
-
-
